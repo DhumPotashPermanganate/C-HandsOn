@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+
 namespace App03
 {
     /// <summary>
@@ -11,20 +12,21 @@ namespace App03
     /// </summary>
     public enum Grades
     {
-        [Display(Name = "Fail")]
-        [Description("Referred")]
+        [Display(Name = "Fail")] [Description("Referred")]
         F,
-        [Display(Name = "III")]
-        [Description("BSc(Hons) Third Class")]
+
+        [Display(Name = "III")] [Description("BSc(Hons) Third Class")]
         D,
-        [Display(Name = "II-2")]
-        [Description("BSc(Hons) Lower Second")]
+
+        [Display(Name = "II-2")] [Description("BSc(Hons) Lower Second")]
         C,
-        [Display(Name = "II-1")]
-        [Description("BSc(Hons) Upper Second")]
+
+        [Display(Name = "II-1")] [Description("BSc(Hons) Upper Second")]
         B,
-        [Display(Name = "1st")]
-        [Description("BSc(Hons) First Class")]
+
+        [Display(Name = "1st")] [Description("BSc(Hons) First Class")]
         A
+
     }
+
 }
