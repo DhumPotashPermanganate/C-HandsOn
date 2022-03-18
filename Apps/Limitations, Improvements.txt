@@ -1,0 +1,5 @@
+1. Mobile app version of the application can be introduced to run on android.
+2. More GUI can be added to make it more user friendly for the user.
+3. More units of weight and height could be added to the BMI to make it more accessible to different people.
+4. The website version can be improved using React for more responsive web pages
+5. The algorithm can be improved to make more fast calculations.

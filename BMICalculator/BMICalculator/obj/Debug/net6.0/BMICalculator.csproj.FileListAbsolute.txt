@@ -1,0 +1,15 @@
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\bin\Debug\net6.0\BMICalculator.exe
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\bin\Debug\net6.0\BMICalculator.deps.json
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\bin\Debug\net6.0\BMICalculator.runtimeconfig.json
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\bin\Debug\net6.0\BMICalculator.dll
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\bin\Debug\net6.0\BMICalculator.pdb
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\obj\Debug\net6.0\BMICalculator.csproj.AssemblyReference.cache
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\obj\Debug\net6.0\BMICalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\obj\Debug\net6.0\BMICalculator.AssemblyInfoInputs.cache
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\obj\Debug\net6.0\BMICalculator.AssemblyInfo.cs
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\obj\Debug\net6.0\BMICalculator.csproj.CoreCompileInputs.cache
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\obj\Debug\net6.0\BMICalculator.dll
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\obj\Debug\net6.0\refint\BMICalculator.dll
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\obj\Debug\net6.0\BMICalculator.pdb
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\obj\Debug\net6.0\BMICalculator.genruntimeconfig.cache
+C:\Users\arigo\RiderProjects\BMICalculator\BMICalculator\obj\Debug\net6.0\ref\BMICalculator.dll

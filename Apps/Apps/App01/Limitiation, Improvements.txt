@@ -1,0 +1,6 @@
+
+1. GUI feature can be added for easy use of the user.
+2. All kinds of conversions can be provided, not limited to only 6 units.
+3. This  program only curates measurement of distance. That can be improved to curate every kind of measurement such as weight, volume etc.
+4. Desktop version of an app can be introduced.
+5. Website version of the application can be introduced.

@@ -1,0 +1,15 @@
+C:\Users\arigo\RiderProjects\Apps\Apps\obj\Debug\net6.0\Apps.csproj.AssemblyReference.cache
+C:\Users\arigo\RiderProjects\Apps\Apps\obj\Debug\net6.0\Apps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arigo\RiderProjects\Apps\Apps\obj\Debug\net6.0\Apps.AssemblyInfoInputs.cache
+C:\Users\arigo\RiderProjects\Apps\Apps\obj\Debug\net6.0\Apps.AssemblyInfo.cs
+C:\Users\arigo\RiderProjects\Apps\Apps\obj\Debug\net6.0\Apps.csproj.CoreCompileInputs.cache
+C:\Users\arigo\RiderProjects\Apps\Apps\bin\Debug\net6.0\Apps.exe
+C:\Users\arigo\RiderProjects\Apps\Apps\bin\Debug\net6.0\Apps.deps.json
+C:\Users\arigo\RiderProjects\Apps\Apps\bin\Debug\net6.0\Apps.runtimeconfig.json
+C:\Users\arigo\RiderProjects\Apps\Apps\bin\Debug\net6.0\Apps.dll
+C:\Users\arigo\RiderProjects\Apps\Apps\bin\Debug\net6.0\Apps.pdb
+C:\Users\arigo\RiderProjects\Apps\Apps\obj\Debug\net6.0\Apps.dll
+C:\Users\arigo\RiderProjects\Apps\Apps\obj\Debug\net6.0\refint\Apps.dll
+C:\Users\arigo\RiderProjects\Apps\Apps\obj\Debug\net6.0\Apps.pdb
+C:\Users\arigo\RiderProjects\Apps\Apps\obj\Debug\net6.0\Apps.genruntimeconfig.cache
+C:\Users\arigo\RiderProjects\Apps\Apps\obj\Debug\net6.0\ref\Apps.dll

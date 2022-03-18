@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="App01\.idea\.idea.App01.dir\.idea\.gitignore" />
+      <Content Include="App01\.idea\.idea.App01.dir\.idea\encodings.xml" />
+      <Content Include="App01\.idea\.idea.App01.dir\.idea\indexLayout.xml" />
+      <Content Include="App01\.idea\.idea.App01.dir\.idea\projectSettingsUpdater.xml" />
+      <Content Include="App01\.idea\.idea.App01.dir\.idea\workspace.xml" />
+      <Content Include="App01\solution.sln" />
+    </ItemGroup>
+
+</Project>
