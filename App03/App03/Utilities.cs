@@ -89,4 +89,11 @@ public class Utilities
 
             return number; 
         }
+
+        public static void printHeading(string prompt)
+        {
+            Console.WriteLine("\n========================================================================");
+            Console.WriteLine($"\t\t\t\t{prompt.ToUpper()}");
+            Console.WriteLine("========================================================================");
+        }
 }
