@@ -15,12 +15,7 @@ namespace App03
         public int size;
 
         public Tuple<String, double, Grades>[] StudentData;
-        /*public static void Main(string[] args)
-        {
-            Start();
-            //Input();
-        }*/
-
+        
         public void Start()
         {
             string[] menu =
@@ -64,7 +59,7 @@ namespace App03
 
             for (int i = 0; i < size; i++)
             {
-                Console.WriteLine("Enter name: ");
+                Console.Write("Enter name: ");
                 String name = Console.ReadLine();
                 double marks = Utilities.Input("Enter Marks: ");
                 StudentData[i] = Tuple.Create(name, marks, CalculateGrade(marks));
@@ -93,16 +88,41 @@ namespace App03
 
         public void OutputMarks()
         {
+            Utilities.printHeading("Detailed Data");
             Console.WriteLine("Name\t\tMarks\t\tGrade\t\tClassification");
             foreach (var i in StudentData)
             {
                 Console.WriteLine(i.Item1+ "\t\t" +i.Item2+"\t\t" + i.Item3 + "\t\t" + i.Item3.GetEnumDescription());
             }
+            OutputStats();
         }
 
         public void OutputStats()
         {
-            
+            Utilities.printHeading("Statistics");
+            double totalMarks = 0.0;
+            double highest= StudentData[0].Item2, lowest= StudentData[0].Item2;
+            String highestName = "", lowestName = "";
+            foreach (var i in StudentData)
+            {
+                totalMarks += i.Item2;
+                if (i.Item2 <= lowest)
+                {
+                    lowest = i.Item2;
+                    lowestName = i.Item1;
+                }
+
+                if (i.Item2 >= highest)
+                {
+                    highest = i.Item2;
+                    highestName = i.Item1;
+                }
+            }
+
+            double mean = totalMarks / size;
+            Console.WriteLine($"Mean: {mean}\n" +
+                              $"Highest Marks: {highest} Student: {highestName}\n" +
+                              $"Lowest Marks: {lowest} Student: {lowestName}");
         }
 
         public void OutputGradeProfile()
