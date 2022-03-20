@@ -1,0 +1,5 @@
+1. Website version of the console.
+2. Desktop App cersion of the console.
+3. Mobile App version of the console.
+4. More features for statistical analysis of performance.
+5. Database Addition
