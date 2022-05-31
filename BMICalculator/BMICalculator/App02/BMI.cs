@@ -140,7 +140,6 @@
         
         private void OutputMessage()
         {
-            //index = Math.Round(index, 2);
             foreach (var i in limits)
             {
                 if (i.Item1 == categoryChoice)
