@@ -10,8 +10,6 @@
     /// </Author>
     public class BMI
     {
-        
-        
         private double index;
 
         // Metric Details
@@ -40,7 +38,7 @@
 
         private int categoryChoice = 4;
 
-        private Tuple<int, string, string, double, double>[] limits =
+        private Tuple<int, string, string, double, double>[] range =
         {
             Tuple.Create(1, "Pregnant Woman", "Underweight", 0.0 , 22.4),
             Tuple.Create(1, "Pregnant Woman", "Normal", 22.5, 28.3),
@@ -72,7 +70,6 @@
 
         public void Start()
         {
-            Console.WriteLine("According to WHO Standards BMI of an Average American");
             Console.WriteLine("WHO Weight Status\t\tBMI kg/m2\n" +
                               "Underweight\t\t< 18.50\n" +
                               "Normal\t\t\t18.5 - 24.9\n" +
@@ -81,8 +78,8 @@
                               "Obese Class II\t\t35.0 - 39.9\n" +
                               "Obese Class III\t\t>= 40.0");
             
-            Console.WriteLine(" To begin with, we will need a few details from you...");
-            Console.WriteLine("\n What group appropriately describes you from the below mentioned list: ");
+            
+            Console.WriteLine("\n Choose Your category: ");
             categoryChoice = Utilities.SelectChoice(categories);
             
             int choice = Utilities.SelectChoice(choices);
@@ -140,7 +137,7 @@
         
         private void OutputMessage()
         {
-            foreach (var i in limits)
+            foreach (var i in range)
             {
                 if (i.Item1 == categoryChoice)
                 {
@@ -156,48 +153,37 @@
         
         private void HealthTip()
         {
-            Console.WriteLine("\nHealth Tips to Follow\n");
+            Console.WriteLine("\nHealth Tips\n");
             
             if (status == "Underweight")
             {
-                Console.WriteLine("1. Eat more frequently" +
-                                  "\n2.Choose nutrient-rich foods" +
-                                  "\n3.Try smoothies and shakes");
+                Console.WriteLine("1. Consume More Carbs" +
+                                  "\n2. Don't skip meals" +
+                                  "\n3. Don't avoid veggies");
             }
             else if (status == "Normal")
             {
                 Console.WriteLine("You are doing a great job" +
-                                  "\nMaintain yourself as you are" +
-                                  "\nKeep a check on your diet");
+                                  "\n Keep exercising and eating Healthy" );
             }
             else if (status == "Overweight")
             {
-                Console.WriteLine("1.Consume less “bad” fat and more “good” fat" +
-                                  "\n2.Consume less processed and sugary foods" +
-                                  "\n3.Eat more servings of vegetables and fruits.");
+                Console.WriteLine("1. Consume less fat" +
+                                  "\n2.Consume less sugary foods" +
+                                  "\n3.Eat more vegetables and fruits.");
             }
             else if (status == "Obese I")
             {
-                Console.WriteLine("1.Reduce calories by 500 calories per day\n" +
-                                  "2.Focus on activities that put minimal stress on your joints, like walking, swimming, or water exercises\n" +
-                                  "3.Snack on seasonal fruits, keep whole fruits easily available");
+                Console.WriteLine("1. Reduce calories\n" +
+                                  "2. Start Exercising\n" +
+                                  "3. Eat Fruits and Veggies");
             }
             else if (status == "Obese II" || status == "Obese III")
             {
-                Console.WriteLine("1.Seek Supervision from a Doctor ASAP\n" +
-                                  "2.Consider Medication\n" +
-                                  "3.Don't Cut Calories Too Far.");
+                Console.WriteLine("1.Seek Supervision from a Doctor\n" +
+                                  "2.Consider Medication\n" );
             }
-        }
-        
-        
-        
-        
-        
-
-       
-
-        
+        }     
         
         
     }
